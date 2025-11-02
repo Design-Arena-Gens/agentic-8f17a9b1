@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>A Woman in Pakistani Attire</title>
+  <meta name="description" content="An elegant, stylized illustration of a woman wearing traditional Pakistani attire (shalwar kameez with dupatta)." />
+  <meta property="og:title" content="A Woman in Pakistani Attire" />
+  <meta property="og:description" content="An elegant, stylized illustration of a woman wearing traditional Pakistani attire." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#0e7490" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="container header">
+    <h1>A Woman in Pakistani Attire</h1>
+    <p class="subtitle">Shalwar kameez with a flowing dupatta</p>
+  </header>
+
+  <main class="container">
+    <figure class="card">
+      <svg
+        class="hero-illustration"
+        viewBox="0 0 600 600"
+        role="img"
+        aria-labelledby="title desc"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <title id="title">Stylized illustration of a woman wearing traditional Pakistani attire</title>
+        <desc id="desc">A modest, elegant figure in a teal shalwar kameez with a contrasting saffron dupatta.</desc>
+
+        <!-- Background circle -->
+        <defs>
+          <radialGradient id="bg" cx="50%" cy="40%" r="70%">
+            <stop offset="0%" stop-color="#e0f2fe" />
+            <stop offset="100%" stop-color="#f1f5f9" />
+          </radialGradient>
+          <linearGradient id="dupatta" x1="0" x2="1" y1="0" y2="1">
+            <stop offset="0%" stop-color="#f59e0b" />
+            <stop offset="100%" stop-color="#f97316" />
+          </linearGradient>
+          <linearGradient id="kameez" x1="0" x2="0" y1="0" y2="1">
+            <stop offset="0%" stop-color="#0ea5a4" />
+            <stop offset="100%" stop-color="#0e7490" />
+          </linearGradient>
+        </defs>
+
+        <circle cx="300" cy="300" r="270" fill="url(#bg)" />
+
+        <!-- Subtle floor shadow -->
+        <ellipse cx="305" cy="490" rx="150" ry="18" fill="#0f172a10" />
+
+        <!-- Dupatta (scarf) flowing around -->
+        <path
+          d="M420,170 C520,210 540,310 470,360 C440,380 380,370 360,350 C330,320 330,280 350,240 C370,200 390,180 420,170 Z"
+          fill="url(#dupatta)"
+          opacity="0.92"
+        />
+        <path
+          d="M420,170 C360,200 330,230 320,260 C305,300 330,330 355,345 C365,350 380,355 395,355 C420,355 445,345 465,330 C480,320 495,300 495,280 C495,240 470,205 420,170 Z"
+          fill="#fb923c"
+          opacity="0.35"
+        />
+
+        <!-- Body: kameez (tunic) -->
+        <path
+          d="M285,210 C310,205 330,205 355,210 C375,260 380,335 370,420 C340,430 310,430 280,420 C270,335 275,260 285,210 Z"
+          fill="url(#kameez)"
+        />
+
+        <!-- Shalwar (trousers) -->
+        <path d="M295,420 C300,460 300,500 295,520 C280,520 265,520 250,520 C255,495 260,470 270,430 C280,428 288,425 295,420 Z" fill="#155e75" />
+        <path d="M360,420 C355,460 350,500 350,520 C335,520 320,520 305,520 C308,495 312,470 320,430 C334,428 346,425 360,420 Z" fill="#155e75" />
+
+        <!-- Feet (simple slippers) -->
+        <rect x="245" y="520" width="28" height="6" rx="3" fill="#0f172a55" />
+        <rect x="300" y="520" width="28" height="6" rx="3" fill="#0f172a55" />
+
+        <!-- Arms -->
+        <path d="M280,230 C260,250 250,280 255,305 C265,300 280,290 300,280" fill="none" stroke="#94d6da" stroke-width="12" stroke-linecap="round" />
+        <path d="M365,230 C385,250 395,280 390,305 C378,298 365,290 345,282" fill="none" stroke="#94d6da" stroke-width="12" stroke-linecap="round" />
+
+        <!-- Head and hair -->
+        <circle cx="320" cy="180" r="32" fill="#0f172a" />
+        <path d="M290,185 C300,165 340,160 355,185 C340,205 300,205 290,185 Z" fill="#0f172a" />
+        <circle cx="320" cy="180" r="26" fill="#fde68a" />
+        <path d="M294,172 C305,158 335,156 350,172 C342,180 332,186 320,188 C308,186 300,182 294,172 Z" fill="#0f172a" opacity="0.9" />
+
+        <!-- Kameez accents -->
+        <path d="M320,210 L320,420" stroke="#99f6e4" stroke-width="3" opacity="0.7" />
+        <circle cx="320" cy="227" r="3" fill="#99f6e4" />
+        <circle cx="320" cy="242" r="3" fill="#99f6e4" />
+        <circle cx="320" cy="257" r="3" fill="#99f6e4" />
+      </svg>
+      <figcaption class="caption">Traditional Pakistani dress: shalwar kameez and dupatta.</figcaption>
+    </figure>
+
+    <section class="text">
+      <h2>About the Attire</h2>
+      <p>
+        The <strong>shalwar kameez</strong> is a timeless and widely worn outfit in Pakistan. It typically includes a long tunic (kameez), trousers (shalwar), and often a <em>dupatta</em>?a graceful scarf that can be styled in many ways.
+      </p>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <p>Made with ?? ? Accessible SVG ? Deployed on Vercel</p>
+  </footer>
+</body>
+</html>
